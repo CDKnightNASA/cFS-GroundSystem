@@ -64,7 +64,7 @@ class GroundSystem(QtGui.QMainWindow):
 
     # Returns the name of the selected spacecraft
     def getSelectedSpacecraftName(self):
-        return self.spacecraftNames[self.ipAddressesList.index(self.getSelectedSpacecraftAddress())]
+        return str(self.spacecraftNames[self.ipAddressesList.index(self.getSelectedSpacecraftAddress())])
 
     #
     # Display popup with error

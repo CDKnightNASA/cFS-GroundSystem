@@ -13,3 +13,5 @@
 Event Messages,            EventMessage.py,         0x808,   null
 Executive Services,        GenericTelemetry.py,     0x800,   cfe-es-hk-tlm.txt
 Table services,            GenericTelemetry.py,     0x804,   cfe-tbl-hk-tlm.txt
+Load Average Housekeeping, GenericTelemetry.py,     0x882,   loadavg-hk-tlm.txt
+Load Average,              GenericTelemetry.py,     0x883,   loadavg-tlm.txt
